@@ -6,7 +6,7 @@ import java.util.Vector;
  * Created by nlfox on 16-8-5.
  */
 
-public class House_Robber {
+public class _198_House_Robber {
     public int rob(int[] nums) {
         int[] dp = new int[nums.length];
         switch (nums.length) {
